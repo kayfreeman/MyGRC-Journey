@@ -1,0 +1,8 @@
+# Ignore the Terraform engine
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore AWS credentials files if they exist
+.aws/

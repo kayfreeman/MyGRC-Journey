@@ -1,0 +1,18 @@
+# 🚀 Local LLM Setup Guide  
+*Running [Llama 3 / Gemma / Mistral] locally via Ollama*  
+
+## 📋 Overview  
+This repo documents my steps to install and run **large language models (LLMs)** locally using [Ollama](https://ollama.com/).  
+
+## ⚙️ Prerequisites  
+- **OS**: macOS/Linux/Windows (WSL)  
+- **Hardware**: Minimum 8GB RAM (16GB+ recommended for 7B+ models)  
+- **Dependencies**: [Ollama](https://ollama.com/) installed  
+
+## 🛠️ Installation Steps  
+
+### 1. Install Ollama  
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+

@@ -1,0 +1,17 @@
+name: GRC Security Audit
+
+on: [push] # Run this whenever code is pushed
+
+jobs:
+  checkov-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Run Checkov
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: .
+          # This tells Checkov to fail the pipeline if it finds High severity issues
+          soft_fail: false

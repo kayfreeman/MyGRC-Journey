@@ -1,0 +1,8 @@
+{
+    "resource_type": "aws_instance",
+    "id": "server-01",
+    "tags": {
+        "Name": "Web-Server",
+        "Owner": "Kay"
+    }
+}
